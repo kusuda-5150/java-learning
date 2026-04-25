@@ -1,6 +1,12 @@
 package ch01;
 
-public class Pr1_A {
+/**
+ * beatorajaの1回分のプレイ結果を変数に入れて表示する練習。
+ * 曲名、譜面、ノーツ数、BP、スコア率、ゲージ値を扱う。
+ * 将来の統計ツールにおけるプレイ結果表示処理の基礎になる。
+ */
+
+public class PlayResultDisplay {
     public static void main(String[] args) {
 
         String songName = "Blue Mirage";
