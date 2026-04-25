@@ -1,4 +1,4 @@
-# sukkiri-Java
+# java-learning
 
 『スッキリわかるJava入門』を使ったJava基礎学習用リポジトリです。
 
