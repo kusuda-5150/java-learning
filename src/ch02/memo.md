@@ -25,4 +25,12 @@
   <br>double averageBp = (double) ((totalBpBefore + currentBp) / playCountAfter);
   <br>// 先に 290 / 3 が整数割り算されるため、結果は 96.0 になる
 
+## ResultMemoDisplay
 
+### メモ
+- テキストブロック内に変数を展開するためには以下のように記述するらしい
+```java
+System.out.print("""
+曲名: %s
+譜面: %s
+""".formatted(songName, songDifficulty));
