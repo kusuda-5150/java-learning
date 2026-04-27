@@ -1,6 +1,10 @@
 package ch01;
-
-public class Pr4_A {
+/*
+ * データに含まれる固定値を定数として定義し、画面に表示する。
+ * バージョンアップ時などの実装エラーを回避する。
+ *
+ */
+public class DisplayConstantValue {
     public static void main(String[] args) {
         final int graphHistory = 20;
         final double hardGaugeCap = 100.0;
